@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="CSS/about.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="header">
+      <nav>
+        <a href="home.html"><img src="img/logxo.png" class="logo"></a>
+        <div class="nav-links"> 
+          <ul>     
+           <li><a href="events.html">
+            <button class="utility">Events</button>
+         </a></li> 
+           <li><a href="about.html">
+             <button class="utility">About</button>
+           </a></li>
+           <li><a href="project.html">
+             <button class="utility">Project</button>
+           </a></li>                
+           <li><a href="register.html" target="_blank">
+             <button class="register">Register</button>
+           </a></li>
+           <li><a href="login.html" target="_blank">
+             <button class="register">Log-in</button>
+           </a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+  <section class="whoarewe">
+    <br>
+    <h1 > Who are we ?</h1>
+    <br><br>
+    <br>
+    <p class="text">
+      &nbsp;Fadi CS Club is an online community passionate about Computer Science. Our mission is to provide our members with tips, resources, and support to discover, learn, and improve their coding knowledge while mastering tough concepts and writing better code.<br> Through learning and teaching from each other, we strive to foster a community of individuals dedicated to advancing their coding skills and understanding in the world of technology.
+    </p>
+    <div class="hashtag">
+      <span>#FADICSCLUB </span>
+      <span>#WEBSITE </span>
+      <span>#MADEBYCODECRAFTERS </span>
+    </div>
+    <br><br><hr>
+   </section>
+   <section class="joinus">
+    <h1 class="joinus">• Thinking of joining us?</h1>
+    <p class="text">New members are always welcome! As a member of the CS-CLUB you will have access to include computer science talks and workshops, catered social events, a wide network of other computer science students and graduates to learn from and make friends with.</p>
+    
+    <button id="join_btn">APPLY NOW !!</button>
+    <script>
+      document.getElementById("join_btn").addEventListener("click", function() {
+          window.location.href = "join.html";
+      });
+    </script>
+   
+   </section>
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-discord"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+    </ul>
+    <p>&copy;2023 CodeCrafters | All Rights Reserved</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
